@@ -1,0 +1,61 @@
+body {
+    background: white;
+    background-size:500px;
+    width: 100%;
+}
+
+.header {
+    background: url(../images/transformersBKG5.jpg);
+    border-bottom: 8px solid gray;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.game-content {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    min-height: 500px;
+    font-family: century gothic;
+}
+
+#gameover-image, #youwin-image {
+    margin:auto;
+}
+
+.game-content th, .game-content td {
+    border: 5px dotted black;
+    width: 1%;
+}
+
+main {
+    background-color:white;
+    border-radius:10px;
+    padding: 20px;
+    max-width:70% !important;
+    min-height:500px;
+    margin-bottom:5%;
+}
+
+.hangTitle {
+    font-size:2em;
+}
+
+.footer {
+    background: url(../images/transformersBKG5.jpg);
+    border-top: 8px solid gray;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 2%;
+}
+
+#pressKeyTryAgain {
+    color:red;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+    font-size: 1.5em;
+}
